@@ -1,10 +1,10 @@
-# Cathyjf Cathyjf
+# cathyjf/homebrew-misc
 
-## How do I install these formulae?
+## How do I install git-remote-gcrypt-keybase?
 
-`brew install cathyjf/cathyjf/<formula>`
-
-Or `brew tap cathyjf/cathyjf` and then `brew install <formula>`.
+```bash
+brew install cathyjf/misc/git-remote-gcrypt-keybase
+```
 
 ## Documentation
 
