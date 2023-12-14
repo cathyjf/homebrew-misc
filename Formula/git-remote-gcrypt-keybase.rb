@@ -2,7 +2,7 @@ class GitRemoteGcryptKeybase < Formula
   desc "GPG-encrypted git remotes (with extra features added by cathyjf)"
   homepage "https://bitbucket.org/cathyjf/git-remote-gcrypt"
   url "https://bitbucket.org/cathyjf/git-remote-gcrypt.git",
-    tag: "cathyjf/1.6.1.1",
+    tag:      "cathyjf/1.6.1.1",
     revision: "642ce560a0faf27a573661b76404a33e604917c0"
   license "GPL-2.0-or-later"
 
