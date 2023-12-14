@@ -9,11 +9,12 @@ class GnupgAT120 < Formula
 
   def install
     ENV.append_to_cflags "-std=c89"
-    system "./configure", *std_configure_args, "--disable-silent-rules"
+    system "./configure", *std_configure_args, "--disable-silent-rules",
+      "--mandir=#{man}", "--infodir=#{info}"
     system "make", "install"
   end
 
   test do
-    # TODO: Add a test.
+    assert_match(/.*gpg \(GnuPG\) 1\.2\.0.*/m, shell_output("#{bin}/gpg --homedir . --version"))
   end
 end
