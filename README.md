@@ -1,12 +1,13 @@
 # cathyjf/homebrew-misc
 
-## Provided formulae
+## Provided formulae and casks
 
 * git-remote-gcrypt-keybase
 * gnupg@1.2.0
     - This is an ancient version of GnuPG referred to in [this Stack Exchange answer](https://security.stackexchange.com/a/62480).
+* sshfs (version 2.5.0 for macOS)
 
-## How do I install these formulae?
+## How do I install these formulae and casks?
 
 `brew install cathyjf/cathyjf/<formula>`
 
