@@ -4,7 +4,7 @@ cask "keychain-interpose" do
 
   url "https://github.com/cathyjf/keychain-interpose/releases/download/v#{version}/keychain-interpose-#{version}.zip"
   name "keychain-interpose"
-  desc "Store GPG secret key files in the macOS keychain"
+  desc "Store GPG secret key files in the keychain"
   homepage "https://github.com/cathyjf/keychain-interpose"
 
   binary "keychain-interpose.app/Contents/MacOS/migrate-keys", target: "keychain-interpose-migrate-keys"

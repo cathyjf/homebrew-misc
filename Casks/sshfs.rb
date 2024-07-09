@@ -13,5 +13,5 @@ cask "sshfs" do
 
   pkg "sshfs-#{version}.pkg"
 
-  uninstall pkgutil: ["com.github.osxfuse.pkg.SSHFS"]
+  uninstall pkgutil: "com.github.osxfuse.pkg.SSHFS"
 end
