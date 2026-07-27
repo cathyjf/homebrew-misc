@@ -1,6 +1,6 @@
 cask "keychain-interpose" do
-  version "0.1.5"
-  sha256 "4328b100b580448296b4b8277f23f18de5c09ce234993b835c3fe176b3da81ab"
+  version "0.1.6"
+  sha256 "9bf12735e5fd99c27760603617a611228f3ccba75bd6579e1ad5c09540e2771d"
 
   url "https://github.com/cathyjf/keychain-interpose/releases/download/v#{version}/keychain-interpose-v#{version}.zip"
   name "keychain-interpose"
